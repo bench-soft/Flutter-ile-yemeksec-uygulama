@@ -100,39 +100,48 @@ class _YemekSecState extends State<YemekSec> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              FlatButton(
+              Card(
                 color: Color.fromARGB(255, 229, 30, 179),
-                highlightColor: Color.fromARGB(255, 237, 4, 4),
-                splashColor: Color.fromARGB(255, 255, 255, 255),
-                onPressed: corbaGetir,
-                child: Text(
-                  'Çorba',
-                  style: TextStyle(
-                    fontSize: 15,
+                margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
+                child: FlatButton(
+                  highlightColor: Color.fromARGB(255, 237, 4, 4),
+                  splashColor: Color.fromARGB(255, 255, 255, 255),
+                  onPressed: corbaGetir,
+                  child: Text(
+                    'Çorba',
+                    style: TextStyle(
+                      fontSize: 15,
+                    ),
                   ),
                 ),
               ),
-              FlatButton(
+              Card(
                 color: Color.fromARGB(255, 229, 30, 179),
-                highlightColor: Color.fromARGB(255, 237, 4, 4),
-                splashColor: Color.fromARGB(255, 255, 255, 255),
-                onPressed: yemekGetir,
-                child: Text(
-                  'Yemek',
-                  style: TextStyle(
-                    fontSize: 15,
+                margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
+                child: FlatButton(
+                  highlightColor: Color.fromARGB(255, 237, 4, 4),
+                  splashColor: Color.fromARGB(255, 255, 255, 255),
+                  onPressed: yemekGetir,
+                  child: Text(
+                    'Yemek',
+                    style: TextStyle(
+                      fontSize: 15,
+                    ),
                   ),
                 ),
               ),
-              FlatButton(
+              Card(
                 color: Color.fromARGB(255, 229, 30, 179),
-                highlightColor: Color.fromARGB(255, 237, 4, 4),
-                splashColor: Color.fromARGB(255, 255, 255, 255),
-                onPressed: tatliGetir,
-                child: Text(
-                  'Tatlı',
-                  style: TextStyle(
-                    fontSize: 15,
+                margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
+                child: FlatButton(
+                  highlightColor: Color.fromARGB(255, 237, 4, 4),
+                  splashColor: Color.fromARGB(255, 255, 255, 255),
+                  onPressed: tatliGetir,
+                  child: Text(
+                    'Tatlı',
+                    style: TextStyle(
+                      fontSize: 15,
+                    ),
                   ),
                 ),
               ),
